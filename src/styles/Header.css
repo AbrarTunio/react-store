@@ -1,0 +1,72 @@
+.jh-banner {
+  color: black;
+  text-align: right;
+  padding: 32px;
+  border-bottom: solid 3px black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jh-logo {
+  width: 45px;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.jh-banner {
+  color: black;
+  text-align: right;
+  padding: 32px;
+  border-bottom: solid 3px black;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jh-title {
+  padding-left: 32px;
+}
+
+.jh-logo {
+  height: 45px;
+  width: 45px;
+}
+.jh-cart {
+  color: white;
+  background-color: #31b572;
+  padding: 32px;
+}
+
+.jh-plant-item-cover {
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+}
+
+.jh-plant-item {
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.jh-plant-list {
+  list-style-type: none;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}

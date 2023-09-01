@@ -1,0 +1,15 @@
+.jh-categories {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.jh-categories-select {
+  margin-right: 15px;
+  background-color: rgb(21, 176, 80);
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
